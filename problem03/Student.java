@@ -16,12 +16,13 @@ class Student {
 	}
 
 	void study() {
-		System.out.println(this.name +"°¡" + this.major + "°øºÎ¸¦ ÇÑ´Ù");
+		System.out.println(this.name +"ê°€" + this.major + "ê³µë¶€ë¥¼ í•œë‹¤");
 	}
 
 
 	void introduce() {
-		System.out.println("Àú´Â" + this.major + this.grade + "ÇĞ³â ÀçÇĞÁßÀÎ" + this.name + "ÀÔ´Ï´Ù");
+		System.out.println("ì €ëŠ”" + this.major + this.grade + "í•™ë…„ ì¬í•™ì¤‘ì¸" + this.name + "ì…ë‹ˆë‹¤");
 	}
+	
 
 }

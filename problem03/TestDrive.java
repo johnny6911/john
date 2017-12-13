@@ -6,5 +6,12 @@ public class TestDrive {
 
 		joy.study();
 		joy.introduce();
+	
+
+		Student tim =
+			new Student(13131314,"팀",22,"영문과",2);
+
+		tim.study();
+		tim.introduce();
 	}
 }
