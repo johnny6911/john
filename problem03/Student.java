@@ -25,4 +25,14 @@ class Student {
 	}
 	
 
+		String study1() 	{
+			return this.name + "가" + this.major + " 공부를 한다";
+		}
+	
+
+
+	String introduce1() {
+			return ("저는" + this.major + "를 공부하는" + this.grade + "학년 재학중인" + this.name + "입니다");
+	}
 }
+		

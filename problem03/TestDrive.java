@@ -13,5 +13,15 @@ public class TestDrive {
 
 		tim.study();
 		tim.introduce();
+
+		Student beke =
+			new Student(13131315,"베케",21,"전자공학과",1);
+		String result1 = beke.study1();
+		System.out.println(result1);
+		
+		String result2 = beke.introduce1();
+		System.out.println(result2);
+				
+
 	}
 }

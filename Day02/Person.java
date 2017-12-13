@@ -1,5 +1,5 @@
 class Person {
-
+	//인스턴스 변수(Instance Variable), 멤버 변수(member Variable)
 	int headSize; 	// 머리크기	(숫자)
 	int height;   	// 키		(숫자)
 	String gender;  // 성별		(문자)
@@ -21,6 +21,7 @@ class Person {
 	}
 
 	// 무엇을 먹는다 (배부르다, 배고프다) 메소드 (method)
+	//괄호 안에 들어가는 것들을 parameter(argument)라고 한다
 	String eat(String food) {
 		if (food.equals("빵")) {
 			return this.name + "은(는) 배부르다.";
