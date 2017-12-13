@@ -2,7 +2,7 @@ public class TestDrive {
 
 	public static void main(String[] args) {
 		Student joy =
-			new Student(13131313,"Á¶ÀÌ",23,"Áß¹®°ú",3);
+			new Student(13131313,"ì¡°ì´",23,"ì¤‘ë¬¸ê³¼",3);
 
 		joy.study();
 		joy.introduce();
