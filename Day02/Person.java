@@ -8,7 +8,7 @@ class Person {
 	String family;	// 가족		(문자)
 
 
-	// 생성자 (속성 값 초기화)
+	// 생성자 (Constructor, 속성 값 초기화)
 	public Person(int headSize, int height, String gender, 
 		int age, String name, String family) {
 
@@ -48,5 +48,10 @@ class Person {
 	// 무엇을 생각한다
 	void think(String how) {
 		System.out.println(this.name + "은" + how + "을(를) 생각한다.");
+	}
+	
+	//숫자 a와 숫자b를 더하는 메서드
+	int add(int a, int b) {
+		return a + b;
 	}
 }

@@ -26,5 +26,9 @@ public class TestDrive {
 		
 		//상훈씨가 비트코인을 생ㄱ가한다
 		sangHoon.think("비트코인");
+
+		//결과는 12가 나옴
+		int result3 = yeEun. add(5, 7);
+		System.out.println(result3);
 	}
 }
