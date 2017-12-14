@@ -1,12 +1,12 @@
 public class Repeat {
 
 	public static void main(String[] args) {
-		// 1; i <= 10; ·Îµµ °¡´ÉÇÏ´Ù °°À½
+		// 1; i <= 10; ë¡œë„ ê°€ëŠ¥í•˜ë‹¤ = ê°™ìŒ
 		for (int i = 0; i < 10; i++) {
 		System.out.println("Hello World");
 		}
 
-		// args ¹è¿­ ³»¿ëÀ» Ãâ·Â
+		// args ë°°ì—´ ë‚´ìš©ì„ ì¶œë ¥
 		for (int i= 0; i < args.length; i++) {
 			System.out.println(args[i]);
 		}	
