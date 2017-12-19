@@ -11,7 +11,7 @@ public class JavaType {
 		// 실수형 	double(기본형)	(+, -)4.9E-324 ~1.7976931348623157E308
 				//float보다 더 범위가 넓음
 		// 문자열	String		큰 따옴표로 표기
-		// 문자		char		작은 따옴표로 한글자만 표기
+		// 문자		char		작은 따옴표로 한글자만 표기 숫자도 입력가능
 		// 부울		boolean		true, false
 
 
@@ -46,6 +46,7 @@ public class JavaType {
 
 		// 문자
 		char lol = 'A';
+		char char01 = 65; // 'A'
 		System.out.println(lol);	
 
 		// 부울
@@ -65,6 +66,7 @@ public class JavaType {
 		if (isEqualNumber && isEqualName && isEqualtype) {
 
 		}
+
 		// 논리합 || - 둘중에서 하나라도 true면 true가 된다
 		// false && true && false
 		// false && false
@@ -73,6 +75,7 @@ public class JavaType {
 		// 형변환
 		// 인식이 안되면 기본적으로 int타입으로 인식한다(오류남!)
 		// 바이트 타입은 127 이상의 숫자를 입력할경우 다시 -128부터 순환된다
+		// (타입)을 앞에 넣어준다
 		byte byteRes = (byte)128; //int형을 강제로 byte 타입으로 변경
 		System.out.println(byteRes);
 
